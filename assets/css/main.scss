@@ -1,0 +1,100 @@
+@import "reset";
+@import "variables";
+
+/* Police d'ecriture par default*/
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../webfonts/Ubuntu-Regular.woff") format("woff"), /* Moderne Browsers */
+    url("../webfonts/Ubuntu-Regular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../webfonts/Ubuntu-bold.woff") format("woff"), /* Moderne Browsers */
+    url("../webfonts/Ubuntu-bold.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../webfonts/Roboto-Regular.woff") format("woff"), /* Moderne Browsers */
+    url("../webfonts/Roboto-Regular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../webfonts/Roboto-Bold.woff") format("woff"), /* Moderne Browsers */
+    url("../webfonts/Roboto-Bold.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: $light;
+    font-family: Roboto;
+    color: $dark;
+}
+
+// EN COMMUN
+.title {
+    font-family: Ubuntu;
+}
+
+.title-h1 {
+    font-size: 3.0rem;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.title-h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.title-h3 {
+    font-size: 1.3rem;
+    font-weight: 540;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-size: 1.0rem;
+    margin-bottom: 5px;
+    color: rgba($color: $dark, $alpha: 0.7);
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    background: $primary;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: $light;
+    cursor: pointer;
+}
+
+// FIN COMMUN
