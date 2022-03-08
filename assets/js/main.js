@@ -1,8 +1,8 @@
 const data = [{
     id: 1,
-    pseudo: 'serge',
-    email: 'serge@doretdevins.com',
-    product: 'Vins Bio'
+    pseudo: 'Dorian',
+    email: 'dorian@doretdevins.com',
+    product: 'vins rouge'
 }]
 
 const list = document.querySelector('#list');
