@@ -1,6 +1,6 @@
 const data = [{
     id: 1,
-    pseudo: 'Marie Cho 12',
+    pseudo: 'Marie',
     email: 'marie@doretdevins.com',
     product: 'vins vert'
 }]
